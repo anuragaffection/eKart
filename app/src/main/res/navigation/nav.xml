@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@layout/fragment_home"
+    android:id="@+id/nav">
+
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="Fragments.MoreFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_more"
+        />
+
+    <fragment
+        android:id="@+id/cartFragment"
+        android:name="Fragments.CartFragment"
+        android:label="fragment_cart"
+        tools:layout="@layout/fragment_cart"
+        />
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="Fragments.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home"
+        />
+
+</navigation>
